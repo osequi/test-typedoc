@@ -3,6 +3,7 @@ import { TGrid } from "./grid";
 /**
  * Defines the grid style.
  * @notExported
+ * @category Main/Sub
  */
 function style(props: { number: number; string: string }): object {
   return {};
@@ -10,6 +11,9 @@ function style(props: { number: number; string: string }): object {
 
 /**
  * Defines the Grid component
+ *
+ * @example "This is a test description"
+ * @category Main
  */
 export function Grid(props: TGrid) {
   /**

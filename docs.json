@@ -1,0 +1,387 @@
+{
+	"id": 0,
+	"name": "undefined",
+	"kind": 0,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 5,
+			"name": "TGrid",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"shortText": "Defines the Grid interface"
+			},
+			"children": [
+				{
+					"id": 9,
+					"name": "as",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "The return type"
+					},
+					"sources": [
+						{
+							"fileName": "grid.ts",
+							"line": 38,
+							"character": 4
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 3,
+						"name": "TTokenReturnTypes"
+					}
+				},
+				{
+					"id": 6,
+					"name": "columns",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "The number of columns, unitless.\nThe columns will be calculated using `grid-template-columns: repeat(columns, 1fr)`\nWhen the columns is an array a responsive grid will be set up.",
+						"tags": [
+							{
+								"tag": "example",
+								"text": "<Grid columns={[1,2]}> => 1 column grid on the first breakpoint, 2 column grid on the second breakpoint. Breakpoints are coming from the theme.\n"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "grid.ts",
+							"line": 32,
+							"character": 9
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "number"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 7,
+					"name": "gap",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "grid.ts",
+							"line": 33,
+							"character": 5
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "number"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 8,
+					"name": "spacing",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "grid.ts",
+							"line": 34,
+							"character": 9
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "number"
+							},
+							{
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						]
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						9,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "grid.ts",
+					"line": 24,
+					"character": 22
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "TGridReturnType",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"comment": {
+				"shortText": "Defines the Grid return type"
+			},
+			"sources": [
+				{
+					"fileName": "grid.ts",
+					"line": 19,
+					"character": 27
+				}
+			],
+			"type": {
+				"type": "reference",
+				"id": 3,
+				"name": "TTokenReturnTypes"
+			}
+		},
+		{
+			"id": 1,
+			"name": "TTokenReturnTypeObject",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"comment": {
+				"shortText": "Defines the object return type"
+			},
+			"sources": [
+				{
+					"fileName": "grid.ts",
+					"line": 4,
+					"character": 34
+				}
+			],
+			"type": {
+				"type": "reference",
+				"name": "Object"
+			}
+		},
+		{
+			"id": 2,
+			"name": "TTokenReturnTypeString",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"comment": {
+				"shortText": "Defines the string return type"
+			},
+			"sources": [
+				{
+					"fileName": "grid.ts",
+					"line": 9,
+					"character": 34
+				}
+			],
+			"type": {
+				"type": "reference",
+				"name": "String"
+			}
+		},
+		{
+			"id": 3,
+			"name": "TTokenReturnTypes",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"comment": {
+				"shortText": "Defines the return types"
+			},
+			"sources": [
+				{
+					"fileName": "grid.ts",
+					"line": 14,
+					"character": 29
+				}
+			],
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "reference",
+						"name": "Object"
+					},
+					{
+						"type": "reference",
+						"name": "String"
+					}
+				]
+			}
+		},
+		{
+			"id": 10,
+			"name": "grid",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {
+				"isConst": true
+			},
+			"comment": {
+				"shortText": "Defines the default values"
+			},
+			"sources": [
+				{
+					"fileName": "grid.ts",
+					"line": 44,
+					"character": 17
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 11,
+					"name": "__type",
+					"kind": 65536,
+					"kindString": "Type literal",
+					"flags": {},
+					"children": [
+						{
+							"id": 15,
+							"name": "as",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"name": "StringConstructor"
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 12,
+							"name": "columns",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "1"
+						},
+						{
+							"id": 13,
+							"name": "gap",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							},
+							"defaultValue": "..."
+						},
+						{
+							"id": 14,
+							"name": "spacing",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							},
+							"defaultValue": "..."
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								15,
+								12,
+								13,
+								14
+							]
+						}
+					]
+				}
+			},
+			"defaultValue": "..."
+		}
+	],
+	"groups": [
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				5
+			]
+		},
+		{
+			"title": "Type aliases",
+			"kind": 4194304,
+			"children": [
+				4,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"title": "Variables",
+			"kind": 32,
+			"children": [
+				10
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "grid.ts",
+			"line": 1,
+			"character": 0
+		}
+	]
+}

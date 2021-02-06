@@ -1,0 +1,227 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>TGrid | undefined</title>
+	<meta name="description" content="Documentation for undefined">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">undefined</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">undefined</a>
+				</li>
+				<li>
+					<a href="tgrid.html">TGrid</a>
+				</li>
+			</ul>
+			<h1>Interface TGrid</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Defines the Grid interface</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">TGrid</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tgrid.html#as" class="tsd-kind-icon">as</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tgrid.html#columns" class="tsd-kind-icon">columns</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tgrid.html#gap" class="tsd-kind-icon">gap</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tgrid.html#spacing" class="tsd-kind-icon">spacing</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="as" class="tsd-anchor"></a>
+					<h3>as</h3>
+					<div class="tsd-signature tsd-kind-icon">as<span class="tsd-signature-symbol">:</span> <a href="../modules.html#ttokenreturntypes" class="tsd-signature-type" data-tsd-kind="Type alias">TTokenReturnTypes</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in grid.ts:38</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The return type</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="columns" class="tsd-anchor"></a>
+					<h3>columns</h3>
+					<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in grid.ts:32</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The number of columns, unitless.
+								The columns will be calculated using <code>grid-template-columns: repeat(columns, 1fr)</code>
+							When the columns is an array a responsive grid will be set up.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><p><Grid columns={[1,2]}> =&gt; 1 column grid on the first breakpoint, 2 column grid on the second breakpoint. Breakpoints are coming from the theme.</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="gap" class="tsd-anchor"></a>
+					<h3>gap</h3>
+					<div class="tsd-signature tsd-kind-icon">gap<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in grid.ts:33</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="spacing" class="tsd-anchor"></a>
+					<h3>spacing</h3>
+					<div class="tsd-signature tsd-kind-icon">spacing<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in grid.ts:34</li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface">
+						<a href="tgrid.html" class="tsd-kind-icon">TGrid</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tgrid.html#as" class="tsd-kind-icon">as</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tgrid.html#columns" class="tsd-kind-icon">columns</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tgrid.html#gap" class="tsd-kind-icon">gap</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tgrid.html#spacing" class="tsd-kind-icon">spacing</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#tgridreturntype" class="tsd-kind-icon">TGrid<wbr>Return<wbr>Type</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#ttokenreturntypeobject" class="tsd-kind-icon">TToken<wbr>Return<wbr>Type<wbr>Object</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#ttokenreturntypestring" class="tsd-kind-icon">TToken<wbr>Return<wbr>Type<wbr>String</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../modules.html#ttokenreturntypes" class="tsd-kind-icon">TToken<wbr>Return<wbr>Types</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#grid" class="tsd-kind-icon">grid</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

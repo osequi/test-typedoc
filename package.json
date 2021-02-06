@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "typedoc": "^0.20.21"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}

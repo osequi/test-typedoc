@@ -16,7 +16,7 @@
     "downlevelIteration": true
   },
   "typedocOptions": {
-    "entryPoints": ["grid.ts"],
+    "entryPoints": ["grid.ts", "Grid.tsx"],
     "json": "docs.json"
   }
 }

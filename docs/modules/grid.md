@@ -27,7 +27,7 @@
 
 Defines the Grid return type
 
-Defined in: [grid.ts:19](https://github.com/osequi/test-typedoc/blob/d895c1a/grid.ts#L19)
+Defined in: [grid.ts:19](https://github.com/osequi/test-typedoc/blob/ce057b6/grid.ts#L19)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 Defines the object return type
 
-Defined in: [grid.ts:4](https://github.com/osequi/test-typedoc/blob/d895c1a/grid.ts#L4)
+Defined in: [grid.ts:4](https://github.com/osequi/test-typedoc/blob/ce057b6/grid.ts#L4)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 Defines the string return type
 
-Defined in: [grid.ts:9](https://github.com/osequi/test-typedoc/blob/d895c1a/grid.ts#L9)
+Defined in: [grid.ts:9](https://github.com/osequi/test-typedoc/blob/ce057b6/grid.ts#L9)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 Defines the return types
 
-Defined in: [grid.ts:14](https://github.com/osequi/test-typedoc/blob/d895c1a/grid.ts#L14)
+Defined in: [grid.ts:14](https://github.com/osequi/test-typedoc/blob/ce057b6/grid.ts#L14)
 
 ## Variables
 
@@ -76,4 +76,4 @@ Name | Type |
 `gap` | *number*[] |
 `spacing` | *number*[] |
 
-Defined in: [grid.ts:44](https://github.com/osequi/test-typedoc/blob/d895c1a/grid.ts#L44)
+Defined in: [grid.ts:44](https://github.com/osequi/test-typedoc/blob/ce057b6/grid.ts#L44)

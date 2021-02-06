@@ -16,6 +16,7 @@
     "downlevelIteration": true
   },
   "typedocOptions": {
-    "entryPoints": ["grid.ts", "Grid.tsx"]
+    "entryPoints": ["grid.ts", "Grid.tsx"],
+    "plugin": ["typedoc-plugin-markdown"]
   }
 }

@@ -6,5 +6,5 @@
 
 ### Modules
 
-- [Grid](modules/grid.md)
+- [Grid2](modules/grid2.md)
 - [grid](modules/grid.md)

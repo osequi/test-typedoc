@@ -27,7 +27,7 @@ Defines the Grid interface
 
 The return type
 
-Defined in: [grid.ts:38](https://github.com/osequi/test-typedoc/blob/ce057b6/grid.ts#L38)
+Defined in: [grid.ts:38](https://github.com/osequi/test-typedoc/blob/9023e58/grid.ts#L38)
 
 ___
 
@@ -41,7 +41,7 @@ When the columns is an array a responsive grid will be set up.
 
 **`example`** <Grid columns={[1,2]}> => 1 column grid on the first breakpoint, 2 column grid on the second breakpoint. Breakpoints are coming from the theme.
 
-Defined in: [grid.ts:32](https://github.com/osequi/test-typedoc/blob/ce057b6/grid.ts#L32)
+Defined in: [grid.ts:32](https://github.com/osequi/test-typedoc/blob/9023e58/grid.ts#L32)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **gap**: *number* \| *number*[]
 
-Defined in: [grid.ts:33](https://github.com/osequi/test-typedoc/blob/ce057b6/grid.ts#L33)
+Defined in: [grid.ts:33](https://github.com/osequi/test-typedoc/blob/9023e58/grid.ts#L33)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 • **spacing**: *number* \| *number*[]
 
-Defined in: [grid.ts:34](https://github.com/osequi/test-typedoc/blob/ce057b6/grid.ts#L34)
+Defined in: [grid.ts:34](https://github.com/osequi/test-typedoc/blob/9023e58/grid.ts#L34)

@@ -15,7 +15,7 @@ function style(props: { number: number; string: string }): object {
  * @example "This is a test description"
  * @category Main
  */
-export function Grid(props: TGrid) {
+export function Grid2(props: TGrid) {
   /**
    * An inline comment. This won't be displyed in docs ....
    */
